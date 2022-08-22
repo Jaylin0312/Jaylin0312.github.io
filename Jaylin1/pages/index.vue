@@ -1,5 +1,5 @@
 <template>
-  <div id=bg class="p-4" style="height: 100vh">
+  <div id=bg class="p-4">
     <h1 class="text-center mb-5">Hello, I am Jaylin</h1>
     <div class="section-about">
       <div class="d-flex justify-content-center align-items-center">
@@ -13,6 +13,39 @@
         </div>
       </div>
     </div>
+    <h1 class="text-center m-5">My Course This Sem</h1>
+    <h3 class="text-center m-5">I swear I am not depressed 🥹</h3>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Time</th>
+          <th scope="col">Course Name</th>
+          <th scope="col">Difficulty</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">3.30pm to 6.45pm</td>
+          <td>BPAS</td>
+          <td>Confusing</td>
+        </tr>
+        <tr>
+          <td scope="row">12.00pm to 3.30pm</td>
+          <td>WAD</td>
+          <td>It is manageable</td>
+        </tr>
+         <tr>
+          <td scope="row">3.30pm to 6.45pm</td>
+          <td>IDP</td>
+          <td>Ruin Frienship</td>
+        </tr>
+        <tr>
+          <td scope="row">12pm to 3.30pm</td>
+          <td>BGS</td>
+          <td>Even more confusing</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
 
